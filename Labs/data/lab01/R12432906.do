@@ -6,10 +6,11 @@
 */
 
 ///set mem 512m
+capture log close
 set more off
 clear
 infile using "R12432906.dct", using("F:\SOC5670\Labs\data\lab01\R12432906_SL140.txt")
-
+log using analysis.log, replace
 
 *Sex Ratio
 gen sr=A02001_002/A02001_003
