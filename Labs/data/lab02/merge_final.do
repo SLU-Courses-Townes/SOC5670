@@ -1,17 +1,17 @@
 clear
 set more off
 
-use "U:\spatdemo20\data\gis\geo_stl.dta" 
+use "F:\SOC5670\Labs\data\gis\geo_stl.dta" 
 
 sort FIPS
 
-save "U:\spatdemo20\data\gis\geo_stl01.dta", replace
+save "F:\SOC5670\Labs\data\gis\geo_stl01.dta", replace
 
-use "U:\spatdemo20\data\lab02\stl_part02.dta" 
+use "F:\SOC5670\Labs\data\lab02\stl_part02.dta" 
 
 sort FIPS
 
-merge 1:1 FIPS using "U:\spatdemo20\data\gis\geo_stl01.dta"
+merge 1:1 FIPS using "F:\SOC5670\Labs\data\gis\geo_stl01.dta"
 
 keep if keep==1
 
@@ -63,6 +63,6 @@ gen index01=(ed_sc+rinc_sc+mhi_sc)/3
 *High is good and low is bad - education is 50%, inequality is 25% and income is 25%
 gen index02=(ed_sc*.5)+(rinc_sc*.25)+(mhi_sc*.25)
 
-export excel FIPS index01 index02  using "U:\spatdemo20\data\lab02\final.xls", firstrow(variables) nolabel replace, 
+export excel FIPS index01 index02  using "F:\SOC5670\Labs\data\lab02\final.xls", firstrow(variables) nolabel replace, 
 
-save "U:\spatdemo20\data\lab02\mas_stl.dta", replace
+save "F:\SOC5670\Labs\data\lab02\msa_stl.dta", replace
