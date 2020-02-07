@@ -65,4 +65,4 @@ gen index02=(ed_sc*.5)+(rinc_sc*.25)+(mhi_sc*.25)
 
 export excel FIPS index01 index02  using "F:\SOC5670\Labs\data\lab02\final.xls", firstrow(variables) nolabel replace, 
 
-save "F:\SOC5670\Labs\data\lab02\msa_stl.dta", replace
+save "F:\SOC5670\Labs\data\lab02\mas_stl.dta", replace
