@@ -1,0 +1,413 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12459585
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2018 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2018 (5-Year Estimates)
+Tables:
+
+      1. Sex
+         Universe:  Total Population
+         Name:      A02001
+         Variables:
+            A02001_001:   Total Population:
+            A02001_002:      Male
+            A02001_003:      Female
+
+
+      2. Age
+         Universe:  Total Population
+         Name:      A01001
+         Variables:
+            A01001_001:   Total Population:
+            A01001_002:      Under 5 Years
+            A01001_003:      5 to 9 Years
+            A01001_004:      10 to 14 Years
+            A01001_005:      15 to 17 Years
+            A01001_006:      18 to 24 Years
+            A01001_007:      25 to 34 Years
+            A01001_008:      35 to 44 Years
+            A01001_009:      45 to 54 Years
+            A01001_010:      55 to 64 Years
+            A01001_011:      65 to 74 Years
+            A01001_012:      75 to 84 Years
+            A01001_013:      85 Years and Over
+
+
+      3. Hispanic or Latino by Race
+         Universe:  Total Population
+         Name:      A04001
+         Variables:
+            A04001_001:   Total Population
+            A04001_002:      Not Hispanic or Latino:
+            A04001_003:         White Alone
+            A04001_004:         Black or African American Alone
+            A04001_005:         American Indian and Alaska Native Alone
+            A04001_006:         Asian Alone
+            A04001_007:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_008:         Some Other Race Alone
+            A04001_009:         Two or More Races
+            A04001_010:      Hispanic or Latino:
+            A04001_011:         White Alone
+            A04001_012:         Black or African American Alone
+            A04001_013:         American Indian and Alaska Native Alone
+            A04001_014:         Asian Alone
+            A04001_015:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_016:         Some Other Race Alone
+            A04001_017:         Two or More Races
+
+
+      4. Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12001
+         Variables:
+            A12001_001:   Population 25 Years and Over:
+            A12001_002:      Less than High School
+            A12001_003:      High School Graduate (Includes Equivalency)
+            A12001_004:      Some College
+            A12001_005:      Bachelor's Degree
+            A12001_006:      Master's Degree
+            A12001_007:      Professional School Degree
+            A12001_008:      Doctorate Degree
+
+
+      5. Highest Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12002
+         Variables:
+            A12002_001:   Population 25 Years and Over:
+            A12002_002:      Less than High School
+            A12002_003:      High School Graduate or More (Includes Equivalency)
+            A12002_004:      Some College or More
+            A12002_005:      Bachelor's Degree or More
+            A12002_006:      Master's Degree or More
+            A12002_007:      Professional School Degree or More
+            A12002_008:      Doctorate Degree
+
+
+      6. Occupation for Employed Civilian Population 16 Years and Over
+         Universe:  Employed civilian Population 16 Years and Over
+         Name:      B17008
+         Variables:
+            B17008_001:   Employed Civilian Population 16 Years and Over:
+            B17008_002:      Management, Business, and Financial Operations  Occupations
+            B17008_003:      Professional and Related Occupations
+            B17008_004:      Healthcare Support Occupations
+            B17008_005:      Protective Service Occupations
+            B17008_006:      Food Preparation and Serving Related Occupations
+            B17008_007:      Building and Grounds Cleaning and Maintenance  Occupations
+            B17008_008:      Personal Care and Service Occupations
+            B17008_009:      Sales and Related Occupations
+            B17008_010:      Office and Administrative Support Occupations
+            B17008_011:      Farming, Fishing, and Forestry Occupations
+            B17008_012:      Construction, Extraction, and Maintenance  Occupations
+            B17008_013:      Production Occupations
+            B17008_014:      Transportation and Material Moving Occupations
+
+
+      7. Household Income (In <DollarYear> Inflation Adjusted Dollars)
+         Universe:  Households
+         Name:      A14001
+         Variables:
+            A14001_001:   Households:
+            A14001_002:      Less than $10,000
+            A14001_003:      $10,000 to $14,999
+            A14001_004:      $15,000 to $19,999
+            A14001_005:      $20,000 to $24,999
+            A14001_006:      $25,000 to $29,999
+            A14001_007:      $30,000 to $34,999
+            A14001_008:      $35,000 to $39,999
+            A14001_009:      $40,000 to $44,999
+            A14001_010:      $45,000 to $49,999
+            A14001_011:      $50,000 to $59,999
+            A14001_012:      $60,000 to $74,999
+            A14001_013:      $75,000 to $99,999
+            A14001_014:      $100,000 to $124,999
+            A14001_015:      $125,000 to $149,999
+            A14001_016:      $150,000 to $199,999
+            A14001_017:      $200,000 or More
+
+
+      8. Households with Self-Employment Income
+         Universe:  Households
+         Name:      A10016
+         Variables:
+            A10016_001:   Households:
+            A10016_002:      With Self-Employment Income
+            A10016_003:      No Self-Employment Income
+
+
+      9. Gini Index of Income Inequality
+         Universe:  Households
+         Name:      A14028
+         Variables:
+            A14028_001:   Gini Index
+
+
+      10. Poverty Status in for Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status Is determined
+          Name:      A13003A
+          Variables:
+             A13003A_001:   Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+             A13003A_002:      Living in Poverty
+             A13003A_003:      At or Above Poverty Level
+
+
+      11. Poverty Status in for Population Age 18 to 64
+          Universe:  Population Age 18 to 64 for whom poverty status Is determined
+          Name:      A13003B
+          Variables:
+             A13003B_001:   Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+             A13003B_002:      Living in Poverty
+             A13003B_003:      At or Above Poverty Level
+
+
+      12. Poverty Status in for Population Age 65 and Over
+          Universe:  Population Age 65 and Over for whom poverty status Is determined
+          Name:      A13003C
+          Variables:
+             A13003C_001:   Population Age 65 and Over for Whom Poverty  Status Is Determined:
+             A13003C_002:      Living in Poverty
+             A13003C_003:      At or Above Poverty Level
+
+
+      13. Travel Time to Work for Workers 16 Years and Over
+          Universe:  Workers 16 Years and Over
+          Name:      A09001
+          Variables:
+             A09001_001:   Workers 16 Years and Over:
+             A09001_002:      Did Not Work At Home:
+             A09001_003:         Less than 10 Minutes
+             A09001_004:         10 to 19 Minutes
+             A09001_005:         20 to 29 Minutes
+             A09001_006:         30 to 39 Minutes
+             A09001_007:         40 to 59 Minutes
+             A09001_008:         60 to 89 Minutes
+             A09001_009:         90 or More Minutes
+             A09001_010:      Worked At Home
+
+
+      14. Travel Time to Work for Workers 16 Years and Over (Who Did Not Work At Home)
+          Universe:  Workers 16 Years and Over Who Did Not Work at Home
+          Name:      B09001
+          Variables:
+             B09001_001:   Workers 16 Years and Over Who Did Not Work At Home:
+             B09001_002:      Less than 10 Minutes
+             B09001_003:      10 to 19 Minutes
+             B09001_004:      20 to 29 Minutes
+             B09001_005:      30 to 39 Minutes
+             B09001_006:      40 to 59 Minutes
+             B09001_007:      60 to 89 Minutes
+             B09001_008:      90 or More Minutes
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      A02001_001:     Total Population:
+      A02001_002:     Total Population: Male
+      A02001_003:     Total Population: Female
+      A01001_001:     Total Population:
+      A01001_002:     Total Population: Under 5 Years
+      A01001_003:     Total Population: 5 to 9 Years
+      A01001_004:     Total Population: 10 to 14 Years
+      A01001_005:     Total Population: 15 to 17 Years
+      A01001_006:     Total Population: 18 to 24 Years
+      A01001_007:     Total Population: 25 to 34 Years
+      A01001_008:     Total Population: 35 to 44 Years
+      A01001_009:     Total Population: 45 to 54 Years
+      A01001_010:     Total Population: 55 to 64 Years
+      A01001_011:     Total Population: 65 to 74 Years
+      A01001_012:     Total Population: 75 to 84 Years
+      A01001_013:     Total Population: 85 Years and Over
+      A04001_001:     Total Population
+      A04001_002:     Total Population: Not Hispanic or Latino
+      A04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      A04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      A04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      A04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      A04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      A04001_010:     Total Population: Hispanic or Latino
+      A04001_011:     Total Population: Hispanic or Latino: White Alone
+      A04001_012:     Total Population: Hispanic or Latino: Black or African American Alone
+      A04001_013:     Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_014:     Total Population: Hispanic or Latino: Asian Alone
+      A04001_015:     Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_016:     Total Population: Hispanic or Latino: Some Other Race Alone
+      A04001_017:     Total Population: Hispanic or Latino: Two or More Races
+      A12001_001:     Population 25 Years and Over:
+      A12001_002:     Population 25 Years and Over: Less than High School
+      A12001_003:     Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001_004:     Population 25 Years and Over: Some College
+      A12001_005:     Population 25 Years and Over: Bachelor's Degree
+      A12001_006:     Population 25 Years and Over: Master's Degree
+      A12001_007:     Population 25 Years and Over: Professional School Degree
+      A12001_008:     Population 25 Years and Over: Doctorate Degree
+      A12002_001:     Population 25 Years and Over:
+      A12002_002:     Population 25 Years and Over: Less than High School
+      A12002_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002_004:     Population 25 Years and Over: Some College or More
+      A12002_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12002_006:     Population 25 Years and Over: Master's Degree or More
+      A12002_007:     Population 25 Years and Over: Professional School Degree or More
+      A12002_008:     Population 25 Years and Over: Doctorate Degree
+      B17008_001:     Employed Civilian Population 16 Years and Over:
+      B17008_002:     Employed Civilian Population 16 Years and Over: Management, Business, and Financial Operations  Occupations
+      B17008_003:     Employed Civilian Population 16 Years and Over: Professional and Related Occupations
+      B17008_004:     Employed Civilian Population 16 Years and Over: Healthcare Support Occupations
+      B17008_005:     Employed Civilian Population 16 Years and Over: Protective Service Occupations
+      B17008_006:     Employed Civilian Population 16 Years and Over: Food Preparation and Serving Related Occupations
+      B17008_007:     Employed Civilian Population 16 Years and Over: Building and Grounds Cleaning and Maintenance  Occupations
+      B17008_008:     Employed Civilian Population 16 Years and Over: Personal Care and Service Occupations
+      B17008_009:     Employed Civilian Population 16 Years and Over: Sales and Related Occupations
+      B17008_010:     Employed Civilian Population 16 Years and Over: Office and Administrative Support Occupations
+      B17008_011:     Employed Civilian Population 16 Years and Over: Farming, Fishing, and Forestry Occupations
+      B17008_012:     Employed Civilian Population 16 Years and Over: Construction, Extraction, and Maintenance  Occupations
+      B17008_013:     Employed Civilian Population 16 Years and Over: Production Occupations
+      B17008_014:     Employed Civilian Population 16 Years and Over: Transportation and Material Moving Occupations
+      A14001_001:     Households:
+      A14001_002:     Households: Less than $10,000
+      A14001_003:     Households: $10,000 to $14,999
+      A14001_004:     Households: $15,000 to $19,999
+      A14001_005:     Households: $20,000 to $24,999
+      A14001_006:     Households: $25,000 to $29,999
+      A14001_007:     Households: $30,000 to $34,999
+      A14001_008:     Households: $35,000 to $39,999
+      A14001_009:     Households: $40,000 to $44,999
+      A14001_010:     Households: $45,000 to $49,999
+      A14001_011:     Households: $50,000 to $59,999
+      A14001_012:     Households: $60,000 to $74,999
+      A14001_013:     Households: $75,000 to $99,999
+      A14001_014:     Households: $100,000 to $124,999
+      A14001_015:     Households: $125,000 to $149,999
+      A14001_016:     Households: $150,000 to $199,999
+      A14001_017:     Households: $200,000 or More
+      A10016_001:     Households:
+      A10016_002:     Households: with Self-Employment Income
+      A10016_003:     Households: No Self-Employment Income
+      A14028_001:     Gini Index
+      A13003A_001:    Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+      A13003A_002:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      A13003A_003:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      A13003B_001:    Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+      A13003B_002:    Population Age 18 to 64 for Whom Poverty Status  Is Determined: Living in Poverty
+      A13003B_003:    Population Age 18 to 64 for Whom Poverty Status  Is Determined: At or Above Poverty Level
+      A13003C_001:    Population Age 65 and Over for Whom Poverty  Status Is Determined:
+      A13003C_002:    Population Age 65 and Over for Whom Poverty  Status Is Determined: Living in Poverty
+      A13003C_003:    Population Age 65 and Over for Whom Poverty  Status Is Determined: At or Above Poverty Level
+      A09001_001:     Workers 16 Years and Over:
+      A09001_002:     Workers 16 Years and Over: Did Not Work At Home
+      A09001_003:     Workers 16 Years and Over: Did Not Work At Home: Less than 10 Minutes
+      A09001_004:     Workers 16 Years and Over: Did Not Work At Home: 10 to 19 Minutes
+      A09001_005:     Workers 16 Years and Over: Did Not Work At Home: 20 to 29 Minutes
+      A09001_006:     Workers 16 Years and Over: Did Not Work At Home: 30 to 39 Minutes
+      A09001_007:     Workers 16 Years and Over: Did Not Work At Home: 40 to 59 Minutes
+      A09001_008:     Workers 16 Years and Over: Did Not Work At Home: 60 to 89 Minutes
+      A09001_009:     Workers 16 Years and Over: Did Not Work At Home: 90 or More Minutes
+      A09001_010:     Workers 16 Years and Over: Worked At Home
+      B09001_001:     Workers 16 Years and Over Who Did Not Work At Home:
+      B09001_002:     Workers 16 Years and Over Who Did Not Work At Home: Less than 10 Minutes
+      B09001_003:     Workers 16 Years and Over Who Did Not Work At Home: 10 to 19 Minutes
+      B09001_004:     Workers 16 Years and Over Who Did Not Work At Home: 20 to 29 Minutes
+      B09001_005:     Workers 16 Years and Over Who Did Not Work At Home: 30 to 39 Minutes
+      B09001_006:     Workers 16 Years and Over Who Did Not Work At Home: 40 to 59 Minutes
+      B09001_007:     Workers 16 Years and Over Who Did Not Work At Home: 60 to 89 Minutes
+      B09001_008:     Workers 16 Years and Over Who Did Not Work At Home: 90 or More Minutes
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2020
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12459585
+
+If you have any questions contact info@socialexplorer.com
