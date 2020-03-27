@@ -80,4 +80,4 @@ vignettes/*.pdf
 .Rproj.user
 
 # Select folders
-Labs/labs/spatdemo20/*
+Labs/materials/*
