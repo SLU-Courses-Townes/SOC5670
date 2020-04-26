@@ -1,0 +1,85 @@
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = FULL)
+-----------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_05.dbf
+Weights matrix      :File: sprfd_ct_05_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           7
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          84
+Pseudo R-squared    :      0.7734
+Spatial Pseudo R-squared:  0.7729
+Sigma-square ML     :       0.004                Log likelihood        :     124.766
+S.E of regression   :       0.061                Akaike info criterion :    -235.532
+                                                 Schwarz criterion     :    -217.956
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.4150164       0.1672263       2.4817656       0.0130733
+               W_pov       0.1891591       0.0994931       1.9012277       0.0572722
+               edtot      -0.0458631       0.0442092      -1.0374119       0.2995439
+                 mhi      -0.0000030       0.0000008      -4.0165065       0.0000591
+                pblk       0.1382048       0.3768605       0.3667267       0.7138229
+          popdensity       0.0000567       0.0000149       3.7988664       0.0001454
+                pwht      -0.1193045       0.1713700      -0.6961806       0.4863157
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL ERROR (METHOD = FULL)
+-------------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_05.dbf
+Weights matrix      :File: sprfd_ct_05_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           6
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          85
+Pseudo R-squared    :      0.7637
+Sigma-square ML     :       0.004                Log likelihood        :     123.168
+S.E of regression   :       0.063                Akaike info criterion :    -234.335
+                                                 Schwarz criterion     :    -219.270
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.4437967       0.1682654       2.6374804       0.0083524
+               edtot      -0.0475574       0.0454134      -1.0472111       0.2950022
+              lambda       0.0340747       0.1740732       0.1957494       0.8448063
+                 mhi      -0.0000034       0.0000008      -4.4349430       0.0000092
+                pblk       0.2917876       0.3821883       0.7634655       0.4451858
+          popdensity       0.0000650       0.0000145       4.4766823       0.0000076
+                pwht      -0.1036514       0.1752521      -0.5914421       0.5542242
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL ERROR (METHOD = FULL)
+-------------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_05.dbf
+Weights matrix      :File: sprfd_ct_05_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           6
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          85
+Pseudo R-squared    :      0.7637
+Sigma-square ML     :       0.004                Log likelihood        :     123.168
+S.E of regression   :       0.063                Akaike info criterion :    -234.335
+                                                 Schwarz criterion     :    -219.270
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.4437967       0.1682654       2.6374804       0.0083524
+               edtot      -0.0475574       0.0454134      -1.0472111       0.2950022
+              lambda       0.0340747       0.1740732       0.1957494       0.8448063
+                 mhi      -0.0000034       0.0000008      -4.4349430       0.0000092
+                pblk       0.2917876       0.3821883       0.7634655       0.4451858
+          popdensity       0.0000650       0.0000145       4.4766823       0.0000076
+                pwht      -0.1036514       0.1752521      -0.5914421       0.5542242
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
+

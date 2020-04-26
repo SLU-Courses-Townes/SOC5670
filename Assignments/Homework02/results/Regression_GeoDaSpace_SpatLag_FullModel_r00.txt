@@ -1,0 +1,29 @@
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = FULL)
+-----------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_05.dbf
+Weights matrix      :File: sprfd_ct_05_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           7
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          84
+Pseudo R-squared    :      0.7734
+Spatial Pseudo R-squared:  0.7729
+Sigma-square ML     :       0.004                Log likelihood        :     124.766
+S.E of regression   :       0.061                Akaike info criterion :    -235.532
+                                                 Schwarz criterion     :    -217.956
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.4150164       0.1672263       2.4817656       0.0130733
+               W_pov       0.1891591       0.0994931       1.9012277       0.0572722
+               edtot      -0.0458631       0.0442092      -1.0374119       0.2995439
+                 mhi      -0.0000030       0.0000008      -4.0165065       0.0000591
+                pblk       0.1382048       0.3768605       0.3667267       0.7138229
+          popdensity       0.0000567       0.0000149       3.7988664       0.0001454
+                pwht      -0.1193045       0.1713700      -0.6961806       0.4863157
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
+
