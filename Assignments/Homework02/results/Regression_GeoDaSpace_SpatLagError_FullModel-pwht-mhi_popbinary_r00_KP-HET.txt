@@ -1,0 +1,28 @@
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIALLY WEIGHTED TWO STAGE LEAST SQUARES (HET)
+-------------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_06.dbf
+Weights matrix      :File: sprfd_ct_06_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           5
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          86
+Pseudo R-squared    :      0.6227
+Spatial Pseudo R-squared:  0.5446
+N. of iterations    :           1                Step1c computed       :          No
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.2093685       0.0732966       2.8564552       0.0042840
+               W_pov       0.5733145       0.1544062       3.7130270       0.0002048
+               edtot      -0.1127207       0.0427693      -2.6355536       0.0084000
+                pblk       1.0326468       0.5007222       2.0623148       0.0391778
+           popbinary      -0.0368038       0.0150515      -2.4451856       0.0144778
+              lambda      -0.0538841       0.3195203      -0.1686407       0.8660793
+------------------------------------------------------------------------------------
+Instrumented: W_pov
+Instruments: W_edtot, W_pblk, W_popbinary
+================================ END OF REPORT =====================================
+
+
