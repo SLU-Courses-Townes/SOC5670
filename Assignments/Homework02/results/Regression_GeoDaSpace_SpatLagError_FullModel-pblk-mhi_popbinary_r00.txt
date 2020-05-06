@@ -1,0 +1,56 @@
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIALLY WEIGHTED TWO STAGE LEAST SQUARES (HOM)
+-------------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_06.dbf
+Weights matrix      :File: sprfd_ct_06_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           5
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          86
+Pseudo R-squared    :      0.6125
+Spatial Pseudo R-squared:  0.5266
+N. of iterations    :           1
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.9571593       0.1706907       5.6075666       0.0000000
+               W_pov       0.3323515       0.1964887       1.6914530       0.0907503
+               edtot      -0.1500319       0.0479600      -3.1282690       0.0017584
+           popbinary      -0.0314261       0.0278027      -1.1303245       0.2583395
+                pwht      -0.7079681       0.1760014      -4.0225146       0.0000576
+              lambda       0.3803762       0.2563887       1.4835920       0.1379172
+------------------------------------------------------------------------------------
+Instrumented: W_pov
+Instruments: W_edtot, W_popbinary, W_pwht
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIALLY WEIGHTED TWO STAGE LEAST SQUARES (HET)
+-------------------------------------------------------------------
+Data set            :sprfd_mo_msa_ct_06.dbf
+Weights matrix      :File: sprfd_ct_06_moran_queen.gal
+Dependent Variable  :         pov                Number of Observations:          91
+Mean dependent var  :      0.1849                Number of Variables   :           5
+S.D. dependent var  :      0.1293                Degrees of Freedom    :          86
+Pseudo R-squared    :      0.6129
+Spatial Pseudo R-squared:  0.5269
+N. of iterations    :           1                Step1c computed       :          No
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       0.9568916       0.2195302       4.3588154       0.0000131
+               W_pov       0.3343552       0.1838899       1.8182357       0.0690281
+               edtot      -0.1490632       0.0462792      -3.2209552       0.0012776
+           popbinary      -0.0315605       0.0162236      -1.9453499       0.0517329
+                pwht      -0.7092233       0.2221972      -3.1918638       0.0014136
+              lambda       0.3394700       0.2936279       1.1561230       0.2476309
+------------------------------------------------------------------------------------
+Instrumented: W_pov
+Instruments: W_edtot, W_popbinary, W_pwht
+================================ END OF REPORT =====================================
+
+
